@@ -12,7 +12,7 @@ This project runs an Orthogonal Finetuning (OFT) experiment using an ImageNet-pr
 ## Run
 
 ```bash
-cd OFT
+cd AIST5030_MiniProject
 bash setup_env.sh
 conda activate oft
 CUDA_VISIBLE_DEVICES=0 python run_oft_experiment.py --epochs 20 --batch-size 64 --lr 3e-3
